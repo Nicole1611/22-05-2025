@@ -11,6 +11,11 @@ package com.mycompany.carolinavalladolid;
 public class CarolinaValladolid {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Mascota m1= new Mascota("Rex",3,"Perro");
+        
+        System.out.println("Nombre de mascota: "+m1.nombre);
+        System.out.println("Edad: "+m1.edad());
+        System.out.println("Tipo: "+m1.tipo);
+        System.out.println("");
     }
 }
